@@ -259,7 +259,7 @@ class VSpace:
         return x + y
 
     def _mut_add(self, x, y):
-        x = x + y
+        x += y
         return x
 
     def _scalar_mul(self, x, a):
